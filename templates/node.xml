@@ -1,0 +1,9 @@
+<templateSet group="node">
+  <template name="router.get" value="router.get('$PATH$', (req, res, next) =&gt; {&#10;  res.render('$TEMPLATE$');&#10;});" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="PATH" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="TEMPLATE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+</templateSet>

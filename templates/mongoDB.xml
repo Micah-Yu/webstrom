@@ -1,0 +1,21 @@
+<templateSet group="mongoDB">
+  <template name="mongoose.connect" value="mongoose.connect('mongodb://localhost/playground$PATH$', { useNewUrlParser: true , useUnifiedTopology: true })&#10;    .then(() =&gt; console.log('connect success'))&#10;    .catch(reason =&gt; console.log('connect fail',reason))" description="mongoose.connect().then().catch()" toReformat="false" toShortenFQNames="true">
+    <variable name="PATH" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="newscm" value=" // 设定集合规则&#10; const $SCHEMA$Schema = new mongoose.Schema({&#10;     $END$&#10; });&#10;  // 创建集合并应用规则&#10; const $COLT$ = mongoose.model('$COLT$', $SCHEMA$Schema); " description="" toReformat="true" toShortenFQNames="true">
+    <variable name="SCHEMA" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="COLT" expression="capitalize(String)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="col.crea" value="$COLT$.create({&#10;    $END$&#10;})&#10;      .then(doc =&gt; console.log(doc))&#10;      .catch(err =&gt; console.log(err))" description="$COLT$.create()" toReformat="true" toShortenFQNames="true">
+    <variable name="COLT" expression="jsSuggestVariableName()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+</templateSet>

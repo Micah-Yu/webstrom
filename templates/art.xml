@@ -1,0 +1,32 @@
+<templateSet group="art">
+  <template name="&lt;" value="&lt;% $VAR$ %&gt;" description="art-template" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="each-t" value="{{each $OBJ$}}&#10;    $END$&#10;{{/each}}" description="{{each }} {{/each}}" toReformat="true" toShortenFQNames="true">
+    <variable name="OBJ" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="block-t" value="{{block '$VAR$'}}$END${{/block}}" description="{{block '$VAR$'}}{{/block}}" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="extend-t" value="{{extend './$PATH$common/layout.art'}}" description="{{extend './layout.art'}}" toReformat="false" toShortenFQNames="true">
+    <variable name="PATH" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="include-t" value="{{include '$PATH$'}}" description="{{include '$PATH$'}}" toReformat="false" toShortenFQNames="true">
+    <variable name="PATH" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+</templateSet>
