@@ -1,4 +1,6 @@
-# webstrom setting
+# webstrom 配置共享
+
+https://juejin.im/post/5b6aa3dbe51d4519596be18e
 
 IntelliJ IDEA 共享 IDE 设置
 IntelliJ IDEA 支持安装在不同计算机上的 IntelliJ IDEA（或其他基于 IntelliJ 平台的）产品的不同实例之间共享 IDE 设置。如果您使用不同的计算机工作，这可以帮助您重新创建一个舒适的工作环境，而且不会让你对事物的外观和行为感到厌烦。
