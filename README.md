@@ -32,7 +32,7 @@ IntelliJ IDEA 支持安装在不同计算机上的 IntelliJ IDEA（或其他基�
 
 每次执行 Update Project 或 Push 操作时，或者当关闭项目或退出 IntelliJ IDEA 时，计算机的本地设置将自动与远程仓库中的设置同步。
 
-在第一次同步时，系统将提示您指定用户名和密码。建议使用 <a url='https://docs.github.com/en/github/authenticating-to-github/creating-a-personal-access-token'>access token </a>进行 GitHub 身份验证。如果由于某种原因，您想要使用用户名和密码而不是 access token，或者您的 Git 托管服务提供商不支持它，建议您配置 <a url='https://docs.github.com/en/github/using-git/caching-your-github-credentials-in-git'>Git credentials helper</a>。
+在第一次同步时，系统将提示您指定用户名和密码。建议使用 [access token](https://docs.github.com/en/github/authenticating-to-github/creating-a-personal-access-token) 进行 GitHub 身份验证。如果由于某种原因，您想要使用用户名和密码而不是 access token，或者您的 Git 托管服务提供商不支持它，建议您配置 [Git credentials helper](https://docs.github.com/en/github/using-git/caching-your-github-credentials-in-git) 
 
 如果要禁用自动设置同步，请导航到 `File | Settings | Tools | Settings Repository` 并禁用 `Auto Sync` 选项。您可以通过从主菜单选择` VCS | Sync Settings` 来手动更新设置。
 
@@ -85,5 +85,5 @@ IntelliJ IDEA 支持安装在不同计算机上的 IntelliJ IDEA（或其他基�
 
 ## 参考
 
-<a url='https://juejin.im/post/5b6aa3dbe51d4519596be18e'>IntelliJ IDEA 共享 IDE 设置</a>
+[IntelliJ IDEA 共享 IDE 设置](https://juejin.im/post/5b6aa3dbe51d4519596be18e)
 
